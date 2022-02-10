@@ -11,8 +11,9 @@ The designs were created to the following widths:
 
 - White: hsl(0, 0%, 100%)
 - Light gray: hsl(212, 45%, 89%)
-- Grayish blue: hsl(220, 15%, 55%)
+- Grayish blue: hsl(220, 15%, 55%) : #7B879D
 - Dark blue: hsl(218, 44%, 22%)
+- Tahiti Gold: #E5890A
 
 ## Typography
 
@@ -22,5 +23,10 @@ The designs were created to the following widths:
 
 ### Font
 
-- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Family:
+font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Sacramento', cursive;
+
 - Weights: 400, 700
