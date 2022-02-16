@@ -26,12 +26,21 @@ p {
   font-size: 1rem;
 }
 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .main-body {
   flex-grow: 1;
 }
 
 /* Top Container Section */
-
+#top-container {
+  align-self: center;
+  /* margin: 9.2rem auto; */
+}
 
 .card-body {
   background-color: #FFFFFF;
@@ -58,11 +67,10 @@ p {
 #footer {
   background-color: #FFFFFF;
   font-size: 0.9rem;
-  padding: 0.1rem;
+  flex-direction: row;
 }
 
 .footer-text {
-  display: inline-block;
   margin: 2rem;
 }
 
